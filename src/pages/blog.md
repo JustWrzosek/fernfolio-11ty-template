@@ -1,6 +1,6 @@
 ---
 layout: blog.njk
-title: Articles
+title: ARTICLES
 metaDescription: A sample Blog page listing various posts.
 date: 2017-01-01
 permalink: blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber
@@ -13,69 +13,108 @@ pagination:
   data: collections.post
   size: 20
 ---
-<!--
-  Fernfolio Blog Section – Human-Centered, Professional, and Visually Styled
-  Author: Tyler M. Roderick
-  Project: Fernfolio (11ty + Netlify CMS)
-  Description: Explore how the Fernfolio blog section is crafted for discoverability, sharing, and storytelling, empowering creators and readers alike.
-  Keywords: Blog, Eleventy, Writing, Netlify CMS, Content, SEO, Accessibility, Storytelling, Portfolio Theme
--->
+<style>
+.article-landing {
+  max-width: 680px;
+  margin: 0 auto 32px auto;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 22px 24px 22px;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-size: 12px;
+  color: #232b33;
+}
+.article-landing-banner {
+  background: linear-gradient(90deg, #30cfd0 0%, #4f8cff 100%);
+  color: #fff;
+  padding: 18px 0 12px 0;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+.article-landing-banner h2 {
+  font-size: 1.5em;
+  margin: 0 0 0.12em 0;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: .5px;
+}
+.article-landing-intro {
+  font-size: 1.03em;
+  color: #24527a;
+  margin: 22px 0 0 0;
+  text-align: center;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+.quote-block {
+  background: #f1f8fd;
+  margin: 26px 0 18px 0;
+  border-left: 4px solid #30cfd0;
+  padding: 12px 16px 8px 16px;
+  font-style: italic;
+  color: #287bc8;
+  font-size: 1.02em;
+  border-radius: 7px;
+  text-align: left;
+  max-width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.table-min {
+  width: 96%;
+  margin: 18px auto 0 auto;
+  border-collapse: collapse;
+  font-size: 12px;
+  background: #f9fbff;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.table-min th, .table-min td {
+  padding: 8px 14px;
+  text-align: left;
+}
+.table-min th {
+  background: #eaf5fa;
+  color: #217ab8;
+  font-weight: 600;
+}
+.table-min td {
+  color: #324155;
+  background: #f9fbff;
+}
+@media (max-width: 600px) {
+  .article-landing { padding: 8px 2vw 8px 2vw; }
+  .article-landing-banner { padding: 10px 0 6px 0; }
+  .table-min th, .table-min td { padding: 6px 6px; }
+  .quote-block { padding: 8px 8px 6px 12px; font-size: 0.97em;}
+}
+</style>
 
-<div align="center" style="margin-bottom:1.3rem;">
-
-<img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80" alt="Open Journal in Forest" width="210" style="border-radius: 10px; box-shadow: 0 4px 18px rgba(33,63,42,0.12); margin-bottom: 0.7rem;" />
-
-<h2 style="font-size:2.1rem; font-weight:800; margin:0 0 0.5rem 0; letter-spacing:-1px; color:#1c7d4d;">
-  Your Blog, Your Stories
-</h2>
-<p style="font-size:1.03rem; color:#333; font-weight:500; max-width:520px; margin:0 auto;">
-  Share your knowledge, insights, and journey with a blog designed for both readers and writers. The Fernfolio blog section is the heart of your personal brand—crafted for clarity, connection, and discovery.
-</p>
-
+<div class="article-landing">
+  <div class="article-landing-banner">
+    <h2>Articles & Insights</h2>
+  </div>
+  <div class="article-landing-intro">
+    Welcome to our creative journal—a space for ideas, tips, and inspiration on design, branding, and freelancing. Here, less is more and every insight is made to spark something new.
+  </div>
+  <div class="quote-block">
+    “Creativity is intelligence having fun.” <span style="font-size:11px;opacity:.88;">– Albert Einstein</span>
+  </div>
+  <table class="table-min">
+    <tr>
+      <th style="width:38%;">What You'll Find</th>
+      <th>Why Read?</th>
+    </tr>
+    <tr>
+      <td>Quick design tips</td>
+      <td>Easy wins for your next project</td>
+    </tr>
+    <tr>
+      <td>Branding advice</td>
+      <td>Practical ways to stand out</td>
+    </tr>
+    <tr>
+      <td>Freelance insights</td>
+      <td>Smarter, happier workflows</td>
+    </tr>
+  </table>
 </div>
-
-- - -
-
-<div style="background: linear-gradient(90deg, #e9f5ee 0%, #f6f9f7 100%); border-left: 4px solid #1c7d4d; padding: 1.2rem 2.1rem; border-radius: 11px; margin-bottom: 1.2rem;">
-
-### Why Blog with Fernfolio?
-
-* **Beautiful by Default:** Every article is presented with clean typography, balanced spacing, and subtle accent colors for an inviting reading experience.
-* **Intuitive Content Management:** Draft, edit, and publish posts using a visual editor in Netlify CMS. No technical background required—just your ideas.
-* **SEO and Social Ready:** Every post includes meta tags, open graph images, and structured data, helping your writing reach more people.
-* **Responsive and Accessible:** Your blog is easy to read on any device, with navigation built for everyone.
-* **Easy Sharing:** Social share buttons and beautiful link previews make it simple for readers to spread your message.
-
-</div>
-
-- - -
-
-## Blog Features at a Glance
-
-<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px,1fr)); gap:1.2rem; margin:1.4rem 0;">
-
-<div style="background:#fafcfa;border:1.2px solid #e5e5e5;border-radius:9px;padding:1.1rem 1rem;box-shadow:0 2px 7px rgba(27,70,43,0.07);">
-  <strong style="color:#1c7d4d;">Markdown Support</strong><br>
-  Write in Markdown for speed and focus. Enjoy code snippets, images, links, and rich formatting.
-</div>
-<div style="background:#f5f8f7;border:1.2px solid #e5e5e5;border-radius:9px;padding:1.1rem 1rem;box-shadow:0 2px 7px rgba(27,70,43,0.06);">
-  <strong style="color:#00ad9f;">Syntax Highlighting</strong><br>
-  Code blocks in your posts are beautifully highlighted for dozens of languages—perfect for technical writing.
-</div>
-<div style="background:#f6faf7;border:1.2px solid #e5e5e5;border-radius:9px;padding:1.1rem 1rem;box-shadow:0 2px 7px rgba(27,70,43,0.07);">
-  <strong style="color:#194d33;">Tagging & Categories</strong><br>
-  Organize your writing with tags and categories, making it easy for readers to find related topics.
-</div>
-<div style="background:#f5f9f7;border:1.2px solid #e5e5e5;border-radius:9px;padding:1.1rem 1rem;box-shadow:0 2px 7px rgba(27,70,43,0.06);">
-  <strong style="color:#1c7d4d;">Reading Time & Dates</strong><br>
-  Each post displays an estimated reading time and clear publish dates for transparency and reader convenience.
-</div>
-<div style="background:#e9f5ee;border:1.2px solid #e5e5e5;border-radius:9px;padding:1.1rem 1rem;box-shadow:0 2px 7px rgba(27,70,43,0.05);">
-  <strong style="color:#00ad9f;">Featured Images</strong><br>
-  Make your posts stand out with beautiful header images and engaging visuals.
-</div>
-</div>
-
-- - -
-
-## Get Started

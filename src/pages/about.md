@@ -321,7 +321,6 @@ p {
   <div class="section-divider"></div>
 
   <h2>Meet the Founder</h2>
-  <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rodney Dela Cruz" class="profile-img" />
   <p>
     <b>Rodney Dela Cruz</b> is the creative spark behind Raketsuki. With a sharp eye for design, a knack for problem-solving, and a strong work ethic, Rodney has built Raketsuki from a humble freelance gig to a trusted creative studio. He is passionate about helping others succeed, and it shows in the care and precision he brings to every project.
   </p>

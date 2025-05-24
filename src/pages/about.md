@@ -170,17 +170,6 @@ p {
 
 <div class="main-container">
 
-  <div class="raketsuki-banner">
-    
-    <h1>Raketsuki</h1>
-    <div style="font-size:1.17em;font-weight:500;max-width:530px;margin:0 auto;">
-      Your Trusted Partner in Graphic Design and Freelance Solutions
-    </div>
-    <div style="font-size:0.99em;margin-top:12px;opacity:0.84;">
-      Founded by Rodney Dela Cruz &bull; Fast, Creative, Reliable
-    </div>
-  </div>
-
   <h2>About Raketsuki</h2>
   <p>
     Welcome to <b>Raketsuki</b>, where innovation, artistry, and professionalism combine to deliver graphic design and freelance solutions you can truly rely on. Founded by Rodney Dela Cruz, Raketsuki started as a small freelance venture and has evolved into a dynamic, client-focused business offering a symphony of creative and administrative services. Our journey is marked by a passion for helping businesses and individuals express their identity, streamline their work, and make a memorable impact in a visually crowded world. <br><br>
@@ -285,8 +274,6 @@ p {
   <p>
     We believe that creativity shouldn’t be a mystery or a luxury. That’s why we keep our process simple, friendly, and highly adaptable. You bring the vision, we bring the expertise, and together, we make something truly remarkable.
   </p>
-
-  
 
   <div class="section-divider"></div>
 

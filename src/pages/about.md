@@ -290,33 +290,7 @@ p {
     We believe that creativity shouldn’t be a mystery or a luxury. That’s why we keep our process simple, friendly, and highly adaptable. You bring the vision, we bring the expertise, and together, we make something truly remarkable.
   </p>
 
-  <div class="section-divider"></div>
-
-  <h2>Connect With Us</h2>
-  <div class="contact-banner">
-    <strong>Ready to start your next creative project?</strong><br/>
-    Reach out anytime—our inbox is always open, and our response times are faster than your favorite delivery app.
-    <br>
-    <a href="mailto:raketsuki@gmail.com" class="cta-btn">Email Us</a>
-    <a href="https://facebook.com/raketsuki" class="cta-btn" style="background:#1877f2;">Facebook Messenger</a>
-  </div>
-  <table class="raketsuki-table" style="max-width:480px;margin:0 auto;">
-    <tr>
-      <th>Business Page</th>
-      <td><a href="https://facebook.com/raketsuki" target="_blank">@raketsuki</a></td>
-    </tr>
-    <tr>
-      <th>Email</th>
-      <td><a href="mailto:raketsuki@gmail.com">raketsuki@gmail.com</a></td>
-    </tr>
-    <tr>
-      <th>Phone</th>
-      <td><a href="tel:+639942716090">+63 994 271 6090</a></td>
-    </tr>
-  </table>
-  <p style="text-align:center;font-size:11.6px;opacity:0.82;">
-    Available via Facebook Messenger, email, or phone. Whether you want a detailed quote, a quick chat, or have burning questions about fonts (we do, too), we’re here for you.
-  </p>
+  
 
   <div class="section-divider"></div>
 

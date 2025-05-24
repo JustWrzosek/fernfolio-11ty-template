@@ -91,8 +91,6 @@ p {
   border-spacing: 0;
   width: 100%;
   margin: 26px 0;
-  background: #f9fbff;
-  box-shadow: 0 2px 8px rgba(47,87,137,0.07);
   border-radius: 14px;
   overflow: hidden;
   font-size: 12px;

@@ -175,7 +175,7 @@ p {
 <div class="main-container">
 
   <div class="raketsuki-banner">
-    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=200&q=80" alt="Raketsuki Logo" class="raketsuki-logo"/>
+    
     <h1>Raketsuki</h1>
     <div style="font-size:1.17em;font-weight:500;max-width:530px;margin:0 auto;">
       Your Trusted Partner in Graphic Design and Freelance Solutions

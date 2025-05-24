@@ -21,10 +21,8 @@ body {
 .main-container {
   max-width: 920px;
   margin: 0 auto;
-  background: #fff;
   border-radius: 20px;
   padding: 40px 30px 30px 30px;
-  box-shadow: 0 6px 34px rgba(62,104,151,0.10), 0 1.5px 3px rgba(80,170,210,0.04);
 }
 
 .raketsuki-banner {

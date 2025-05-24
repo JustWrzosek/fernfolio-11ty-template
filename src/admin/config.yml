@@ -1,6 +1,14 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  login: true
+
+# Add this line:
+display_url: https://raketsuki.netlify.app
+
+# Optional: To explicitly allow external logins
+identity_url: https://raketsuki.netlify.app/.netlify/identity
+
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow

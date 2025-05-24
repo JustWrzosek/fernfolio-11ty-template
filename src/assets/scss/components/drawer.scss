@@ -113,8 +113,10 @@
   margin: 0;
   padding: 15px 0;
   border-bottom: 1px solid var(--color-border);
-  font-size: 1.75em;
-  font-weight: 700;
+  font-size: 1.25em;
+  font-weight: 1000;
+  text-align: center;
+  text-transform: uppercase;
 
   :root[data-theme="dark"] &{
     border-bottom: 1px solid var(--color-border-dark);
